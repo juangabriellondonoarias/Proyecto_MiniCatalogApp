@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.products{
+    background-color: rgb(212, 213, 213);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+input{
+    padding: 6px 0px;
+    border-radius: 5px;
+    border: 1px solid rgb(99, 99, 99);
+    margin-bottom: 10px;
+}
+
+.bot{
+    border:none;
+    background-color: black;
+    color:white;
+    padding: 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}

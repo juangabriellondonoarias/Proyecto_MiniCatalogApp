@@ -1,0 +1,8 @@
+<main>
+    <h1>Mini Catalogo de Productos</h1>
+    <app-product-form-component (productCreated)="productCreated($event)">
+    </app-product-form-component>
+
+    <app-product-list-component [productList]="productos" (deletRequest)="deletProduct($event)">
+    </app-product-list-component>
+</main>
