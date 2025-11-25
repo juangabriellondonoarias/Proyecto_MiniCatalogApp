@@ -1,11 +1,11 @@
-<div>
+<div class="list">
     <h3>Lista de Productos</h3>
     <p *ngIf = "productList.length === 0">No hay productos en el inventario</p>
 
     <ul>
         <li *ngFor="let p of productList; let i = index">
             <span>
-                <strong>{{ p.name }}</strong> - {{ p.price }}
+                Nombre: {{ p.name }} <br> Precio: {{p.price }}
             </span>
 
             <button (click)="eliminar(i)">
